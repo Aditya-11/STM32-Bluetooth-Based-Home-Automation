@@ -22,6 +22,8 @@ Used STM32 microcontroller and various sensor to collect data and control the le
 
 # Sensors Used
 
+* Used ADC 1 (timmer 1) and 2 (timmer 8) to sample the analog values comming from various sensors.
+
 1. LM-35 -> temperature sensor 
 2. LDR -> Light brightness in a room
 3. PIR -> To detect presence of someone inside a room
