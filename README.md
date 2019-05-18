@@ -26,7 +26,7 @@ Used STM32 microcontroller and various sensor to collect data and control the le
 
 1. LM-35 -> temperature sensor 
 2. LDR -> Light brightness in a room
-3. PIR -> To detect presence of someone inside a room
+3. PIR -> To detect presence of someone inside a room , used gpio_10 from getting high/low input
 
 # Outputs
 
