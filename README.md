@@ -42,13 +42,13 @@ And from the bluetooth app person had the option to control speed of fan. This w
 # Control AC devices
 
 * controlling AC devices isn't as easy as controlling dc devices , the knowledge of power electronics would be very much usefull for this kind of task. Due to time contraints we couldn't implement this part completely, the power circuits were failing but the guys who are really interested in making a real home automation system can have a look at the content below. 
-Below is controlling AC lamp for AC drive we have use a snubber circuit.
+Below is controlling AC lamp for AC drive we have to use a snubber circuit.
 
 * <b>POWER CIRCUIT</b>
 
 The power circuit consists of two parts 
-1.) The Triac driver circuit 
-2.) The zero crossing detection circuit
+1. The Triac driver circuit 
+2. The zero crossing detection circuit
 
 * <b> The driver circuit </b>
 
