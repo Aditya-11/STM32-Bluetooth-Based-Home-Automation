@@ -24,7 +24,9 @@ Used STM32 microcontroller and various sensor to collect data and control the le
 2. LDR -> Light brightness in a room
 3. PIR -> To detect presence of someone inside a room
 
-# Outputs -> 1st to control the light intensity , 2nd -> To drive a dc motor (fan)
+# Outputs
+
+* 1st to control the light intensity , 2nd -> To drive a dc motor (fan)
 
 1. Based on sensing outputs were produced in the form of PWM signal using timmer 16 and 17 from main.c file. 
 
