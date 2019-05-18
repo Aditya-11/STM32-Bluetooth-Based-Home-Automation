@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"experiment7\startup_stm32f303xe.o"
+"experiment7\main.o"
+"experiment7\stm32f3xx_it.o"
+"experiment7\stm32f3xx_hal_msp.o"
+"experiment7\stm32f3xx_hal_adc.o"
+"experiment7\stm32f3xx_hal_adc_ex.o"
+"experiment7\stm32f3xx_hal_tim.o"
+"experiment7\stm32f3xx_hal_tim_ex.o"
+"experiment7\stm32f3xx_hal_uart.o"
+"experiment7\stm32f3xx_hal_uart_ex.o"
+"experiment7\stm32f3xx_hal.o"
+"experiment7\stm32f3xx_hal_rcc.o"
+"experiment7\stm32f3xx_hal_rcc_ex.o"
+"experiment7\stm32f3xx_hal_gpio.o"
+"experiment7\stm32f3xx_hal_dma.o"
+"experiment7\stm32f3xx_hal_cortex.o"
+"experiment7\stm32f3xx_hal_pwr.o"
+"experiment7\stm32f3xx_hal_pwr_ex.o"
+"experiment7\stm32f3xx_hal_flash.o"
+"experiment7\stm32f3xx_hal_flash_ex.o"
+"experiment7\stm32f3xx_hal_i2c.o"
+"experiment7\stm32f3xx_hal_i2c_ex.o"
+"experiment7\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "Experiment7\Experiment7.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Experiment7.map" -o Experiment7\Experiment7.axf
