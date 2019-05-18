@@ -1,5 +1,7 @@
 # STM32-Bluetooth-Based-Home-Automation
 
+* Used ARM-Keil IDE
+
 <a href="https://github.com/Aditya-11/STM32-Bluetooth-Based-Home-Automation/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-Blue.svg" alt="License" /></a>
 
 * HC-05 module
@@ -14,9 +16,9 @@ Used STM32 microcontroller and various sensor to collect data and control the le
 
 1. Bluetooth is IEEE 802.15.1 standardized protocol, through which one can build wireless Personal Area Network (PAN). It uses frequency-hopping spread spectrum (FHSS) radio technology to send data over air.
 
-2. Communication between bluetooth and microcontroller is done using UART (Universal Asynchronous Receiver and Transmitter) protocol
+2. Communication between bluetooth and microcontroller is done using UART (Universal Asynchronous Receiver and Transmitter)   protocol
 
-3.The UART packet size is about 8 bits , 1 start and 1 stop bit and 0 parity bits.
+3. The UART packet size is about 8 bits , 1 start and 1 stop bit and 0 parity bits.
 
 # Sensors Used
 
