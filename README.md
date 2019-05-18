@@ -20,6 +20,8 @@ Used STM32 microcontroller and various sensor to collect data and control the le
 
 3. The UART packet size is about 8 bits , 1 start and 1 stop bit and 0 parity bits.
 
+4. Check out the baudrate , rated baudrate at command mode is 38400 and at data mode is 9600, whenever the enable pin is ON then its in command mode. You can go through various AT commands to configure your bluetooth module from HC-05 documentation.
+
 # Sensors Used
 
 * Used ADC 1 (timmer 1) and 2 (timmer 8) to sample the analog values comming from various sensors.
