@@ -36,7 +36,7 @@ Used STM32 microcontroller and various sensor to collect data and control the le
 
 1. Based on sensing data outputs were produced in the form of PWM signal using timmer 16 and 17 from main.c file. 
 
-2. Based on temperature , if it's high, then speed of fan (dc motor) was increased  and decreased if it's low by adjusting the pwm signal.
+2. Based on temperature , if it's high, then speed of fan (dc motor) was increased  and decreased if it's low by adjusting the pwm signal.Dont directly interface the DC motor to the microcontroller , this may lead to damage of microcontroller if it draws more current, use dc driver circuits.
 
 3. Based on the intensity of light the brightness of LED lights was adjusted by adjusting the PWM values.
 
